@@ -322,8 +322,8 @@ ul   { list-style: none; }
 .g-grid-a,
 .g-grid-b {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 340px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 340px;
   gap: 5px; padding: 0 52px;
 }
 .gi { overflow: hidden; }
@@ -616,7 +616,7 @@ ul   { list-style: none; }
   .g-grid-a, .g-grid-b, .g-full { padding-left: 24px; padding-right: 24px; }
 
   .g-grid-a,
-  .g-grid-b { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(2, 220px); }
+  .g-grid-b { grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 220px); }
 
   .g-full { height: 280px; }
 
