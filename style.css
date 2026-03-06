@@ -703,6 +703,8 @@ ul   { list-style: none; }
 
 @media (max-width: 480px) {
   .hero-content { padding: 0 24px; }
+  .hero { align-items: flex-end; }
+  .hero-content { padding-bottom: 60px; }
   .hero-btns { flex-direction: column; align-items: flex-start; }
   .stat { flex: 1 1 45%; }
   .reviews-grid { grid-template-columns: 1fr; }
