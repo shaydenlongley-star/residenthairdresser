@@ -423,7 +423,7 @@ ul   { list-style: none; }
 
 .services-list { border-top: 1px solid var(--border); }
 .sr {
-  display: grid; grid-template-columns: 56px 1fr 24px;
+  display: grid; grid-template-columns: 56px 1fr auto 24px;
   align-items: center; gap: 24px;
   padding: 28px 0; border-bottom: 1px solid var(--border);
   transition: padding-left 0.3s; cursor: default;
@@ -442,6 +442,18 @@ ul   { list-style: none; }
 .sr-desc { font-size: 12px; color: var(--grey); font-weight: 300; line-height: 1.4; }
 .sr-icon { color: var(--grey); opacity: 0.4; flex-shrink: 0; transition: opacity 0.2s; }
 .sr:hover .sr-icon { opacity: 0.8; color: var(--red); }
+.sr-price {
+  font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700;
+  color: var(--white); opacity: 0.5; white-space: nowrap; text-align: right;
+  transition: opacity 0.25s;
+}
+.sr:hover .sr-price { opacity: 1; color: var(--red); }
+.sr-price-promo { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.sr-price-old {
+  font-size: 11px; color: var(--grey); text-decoration: line-through;
+  font-family: 'Inter', sans-serif;
+}
+.sr-price-highlight { color: var(--red) !important; opacity: 1 !important; }
 
 /* ===========================
    CRAFT SECTION
@@ -663,7 +675,7 @@ ul   { list-style: none; }
   .services { padding: 72px 24px; }
   .services-header { grid-template-columns: 1fr; }
   .services-imgs { height: 260px; }
-  .sr { grid-template-columns: 40px 1fr; }
+  .sr { grid-template-columns: 40px 1fr auto; }
   .sr-icon { display: none; }
 
   .craft { grid-template-columns: 1fr; }
