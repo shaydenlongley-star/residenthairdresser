@@ -105,15 +105,14 @@ ul   { list-style: none; }
 .nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   display: flex; align-items: center; justify-content: space-between;
-  padding: 28px 52px;
-  transition: padding 0.4s, background 0.4s, border-color 0.4s;
-  border-bottom: 1px solid transparent;
-}
-.nav.scrolled {
+  padding: 20px 52px;
   background: rgba(8,8,8,0.94);
   backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  transition: padding 0.4s;
+}
+.nav.scrolled {
   padding: 16px 52px;
-  border-bottom-color: var(--border);
 }
 .nav-brand {
   font-family: 'Syne', sans-serif; font-weight: 800;
