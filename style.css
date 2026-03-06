@@ -196,8 +196,9 @@ ul   { list-style: none; }
   color: rgba(240,235,224,0.55); font-weight: 400; text-align: left;
 }
 .hero-tagline {
-  font-size: clamp(14px, 1.8vw, 20px); font-weight: 300; font-style: italic;
-  color: rgba(240,235,224,0.7); letter-spacing: 0.05em;
+  font-size: clamp(14px, 1.8vw, 20px); font-weight: 400; font-style: italic;
+  color: var(--white); letter-spacing: 0.05em;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.8);
 }
 .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
 .hero-scroll-indicator {
