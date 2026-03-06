@@ -125,7 +125,7 @@ a   { text-decoration: none; color: inherit; }
 
 .hero-bg img {
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
   width: 100%;
   height: 100%;
 }
