@@ -674,6 +674,7 @@ ul   { list-style: none; }
 
   .services { padding: 72px 24px; }
   .services-header { grid-template-columns: 1fr; }
+  .services-title { font-size: clamp(32px, 9vw, 56px); }
   .services-imgs { height: 260px; }
   .sr { grid-template-columns: 40px 1fr auto; }
   .sr-icon { display: none; }
