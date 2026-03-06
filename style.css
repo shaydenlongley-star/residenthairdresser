@@ -115,8 +115,12 @@ ul   { list-style: none; }
   padding: 16px 52px;
 }
 .nav-brand {
-  font-family: 'Syne', sans-serif; font-weight: 800;
-  font-size: 18px; letter-spacing: 0.1em; color: var(--white);
+  display: flex; align-items: center;
+}
+.nav-logo {
+  height: 44px; width: auto;
+  mix-blend-mode: screen;
+  object-fit: contain;
 }
 .nav-links { display: flex; align-items: center; gap: 40px; }
 .nav-links a {
