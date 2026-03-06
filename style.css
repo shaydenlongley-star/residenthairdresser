@@ -358,19 +358,19 @@ ul   { list-style: none; }
    PULL QUOTE
 =========================== */
 .quote-section {
-  background: var(--red); padding: 80px 52px;
+  background: var(--red); padding: 80px 52px 96px;
   display: flex; align-items: center; justify-content: center;
   border-top: 1px solid rgba(255,255,255,0.1);
+  overflow: visible;
 }
 .pull-quote {
-  font-family: 'Syne', sans-serif; font-weight: 700;
-  font-size: clamp(28px, 4vw, 60px); line-height: 1.35;
+  font-family: 'Inter', sans-serif; font-weight: 700;
+  font-size: clamp(28px, 4vw, 60px); line-height: 1.4;
   color: var(--white); text-align: center; letter-spacing: -0.01em;
-  max-width: 900px; padding-bottom: 4px;
+  max-width: 900px;
 }
 .pull-quote em {
-  font-family: 'Inter', sans-serif; font-style: italic;
-  font-weight: 300;
+  font-style: italic; font-weight: 300;
 }
 
 /* ===========================
